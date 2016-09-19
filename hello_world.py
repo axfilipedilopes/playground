@@ -1,3 +1,7 @@
 #!/usr/bin/python
 
-print "Hello world"
+
+def say_this(text):
+    return text
+
+print say_this("Hello World")
